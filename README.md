@@ -17,6 +17,7 @@ Karna hal tersebutlah program ini dibuat berdasarakan pengalaman nyata. Program 
 **Kode Program Java**
 Penjelasan Setiap Class 
 1.<Tugas>
+
 ```java 
 abstract class Tugas {
    protected String namaTugas;
@@ -60,6 +61,7 @@ abstract class Tugas {
 <Tugas> abstract class ini yang jadi inti dari semua jenis tugas, menyimpan atribut umum seperti nama tugas, mata kuliah, deadline dan status selesai.
 
 2. <TugasPrioritas>
+
 ```java 
 class TugasPrioritas extends Tugas {
    private String catatan;
@@ -88,6 +90,7 @@ class TugasPrioritas extends Tugas {
    pada sub class dari tugas ini digunakan untuk tugas yang deadline mepet. metode <hitungBebanKerjaan()> akan mengembalikan nilai 3 (artinya bebannya tingg)
 
 3. <TugasTanggatLama>
+
 ```java 
 class TugasTanggatLama extends Tugas {
    private String catatan;
@@ -108,9 +111,11 @@ abstract class Lokasi {
    ```
 abstract class ini yang menjadi parent dari semua pilihan lokasi belajar, menyimpan atribut biaya, energi terkuas dan status wifi
 5. <Kampus> <Kos> <Cafe>
+
 sub class dari <Lokasi> dengan karakteristik yang beda misal:
 - Kos itu tidak ada baiaya tambahan namun, wifi lemot 
 6. <Mahasiswa>
+
 ```java 
 class Mahasiswa {
    private String nama;
