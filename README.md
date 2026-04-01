@@ -15,7 +15,9 @@ Karna hal tersebutlah program ini dibuat berdasarakan pengalaman nyata. Program 
 ![Class Diagram](class_diagram.png)
 
 **Kode Program Java**
-Penjelasan Setiap Class 
+
+Penjelasan Setiap Class:
+
 1.<Tugas>
 
 ```java 
@@ -101,7 +103,9 @@ class TugasTanggatLama extends Tugas {
    }
 ```
 pada sub class dari tugas ini sama seperti fungsi sub class <TugasPriorita>, namun pada <TugasTanggatLama> ini artinya tugasnya deadlinenya masih lama. metode <hitungBebanKerjaan()> nanti akan mnegembalikan niali 1
+
 4. <Lokasi>
+
 ```java
 abstract class Lokasi {
    protected String namaLokasi;
@@ -110,10 +114,12 @@ abstract class Lokasi {
    protected boolean Wifi;
    ```
 abstract class ini yang menjadi parent dari semua pilihan lokasi belajar, menyimpan atribut biaya, energi terkuas dan status wifi
+
 5. <Kampus> <Kos> <Cafe>
 
 sub class dari <Lokasi> dengan karakteristik yang beda misal:
-- Kos itu tidak ada baiaya tambahan namun, wifi lemot 
+- Kos itu tidak ada baiaya tambahan namun, wifi lemot
+  
 6. <Mahasiswa>
 
 ```java 
