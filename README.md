@@ -107,7 +107,7 @@ abstract class Lokasi {
    protected boolean Wifi;
    ```
 abstract class ini yang menjadi parent dari semua pilihan lokasi belajar, menyimpan atribut biaya, energi terkuas dan status wifi
-5. <Kampus><Kos><Cafe >
+5. <Kampus> <Kos> <Cafe>
 sub class dari <Lokasi> dengan karakteristik yang beda misal:
 - Kos itu tidak ada baiaya tambahan namun, wifi lemot 
 6. <Mahasiswa>
@@ -119,8 +119,8 @@ class Mahasiswa {
    private ArrayList<Tugas> daftarTugas;
 ```
 ini adalah class utama yang menyimpan data mahasiswa dan mengelola daftar tugas. di class ini berisi method untuk menambahkan tugas, mengerjakan tugas, dan menampilkan tugas 
-![Output](../output/output_1.png)
-![Output](../output/output_2.png)
+![Output](../output_!.png)
+![Output](../output_2.png)
 
 **Prinsip OOP yang Diterapkan**
 1. Encapsulation
