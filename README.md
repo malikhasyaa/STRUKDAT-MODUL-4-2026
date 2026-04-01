@@ -135,13 +135,13 @@ ini adalah class utama yang menyimpan data mahasiswa dan mengelola daftar tugas.
 
 **Prinsip OOP yang Diterapkan**
 1. Encapsulation
-Semua atribut di class <Mahasiswa> bersifat <private> (nama, saldo, energi, daftarTugas). Data hanya bisa diakses melalui method getter dan method khusus seperti <kerjakanTugas()>. mencegah perubahan data secara langsung dari luar class dan menjaga integritas data.
+Semua atribut di class Mahasiswa bersifat private (nama, saldo, energi, daftarTugas). Data hanya bisa diakses melalui method getter dan method khusus seperti kerjakanTugas(). mencegah perubahan data secara langsung dari luar class dan menjaga integritas data.
 2. Inheritance
-<TugasPrioritas> dan <TugasTanggatLama> menuruni class abstract <Tugas>. <Kampus><Kos><Cafe> inheritance dari class abstract <Lokasi>
+TugasPrioritas dan TugasTanggatLama menuruni class abstract Tugas. Kampus, Kos, Cafe inheritance dari class abstract Lokasi
 3. Polymorphsim 
-Method <tampilkaninfo()> pada <TugasPrioritas> menampilkan peringatan "SEGERA KERJAKAN!", sementara <TugasTanggatLama> menampilkan "masih ada waktu" — meskipun dipanggil dengan cara yang sama. Begitu pula method <deskripsiLokasi()> pada tiap subclass <Lokasi> yang menampilkan deskripsi berbeda-beda.
+Method tampilkaninfo() pada TugasPrioritas menampilkan peringatan "SEGERA KERJAKAN!", sementara <TugasTanggatLama> menampilkan "masih ada waktu" — meskipun dipanggil dengan cara yang sama. Begitu pula method <deskripsiLokasi()> pada tiap subclass <Lokasi> yang menampilkan deskripsi berbeda-beda.
 4. Abstraction 
-<Tugas> dan <Lokasi> adalah abstract class yang tidak bisa di instansiasu langsung, keduanya mendifiniskan method abstract <tampilaninfo()>, <hitungTotalKerjaan()>, <deskripsilokasi()> yang wajib di implementasikan oleh subclass masing-masing.
+Tugas dan Lokasi adalah abstract class yang tidak bisa di instansiasu langsung, keduanya mendifiniskan method abstract tampilaninfo(), hitungTotalKerjaan(), deskripsilokasi() yang wajib di implementasikan oleh subclass masing-masing.
 
 **Keunikan Program**
 1. program ini membagi tugas menjadi <TugasPrioritas> dan <TugasTanggatLama>. Setiap tipe memiliki pesan status yang berbeda ("SEGERA KERJAKAN!" vs "Masih ada waktu"), yang memberikan efek psikologis nyata bagi pengguna dalam simulasi.
