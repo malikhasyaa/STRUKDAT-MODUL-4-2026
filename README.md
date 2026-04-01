@@ -119,8 +119,8 @@ class Mahasiswa {
    private ArrayList<Tugas> daftarTugas;
 ```
 ini adalah class utama yang menyimpan data mahasiswa dan mengelola daftar tugas. di class ini berisi method untuk menambahkan tugas, mengerjakan tugas, dan menampilkan tugas 
-![Output](output/output_!.png)
-![Output](output/output_2.png)
+![Output](output_!.png)
+![Output](output_2.png)
 
 **Prinsip OOP yang Diterapkan**
 1. Encapsulation
